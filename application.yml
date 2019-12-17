@@ -4,12 +4,12 @@ spring:
       - dev
 ---
 spring:
-  profiles: dev                   #姝ｅ紡鐜
+  profiles: dev                   #正式环境名称
   application:
     name: microservice-config-dev
     
 ---
 spring:
-  profiles: test                  #娴嬭瘯鐜
+  profiles: test                  #测试环境名称
   application:
     name: microservice-config-test
